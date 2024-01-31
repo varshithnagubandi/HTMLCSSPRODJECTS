@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .nav1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 35px;
+      }
+      .nav2 {
+        padding-top: 30px;
+      }
+      .font-links {
+        font-size: 25px;
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+      }
+      .font-links1:hover {
+        font-size: 30px;
+        margin: 25px;
+      }
+      .banner {
+        background-image: url("https://res.cloudinary.com/di9gicvs4/image/upload/v1706553362/bannerfood_yxclhz.jpg");
+        height: 90vh;
+        background-size: cover;
+      }
+      .banner-font {
+        color: white;
+        font-size: 45px;
+        margin-bottom: 20px;
+      }
+      .bannerp-font {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+      .bannerpp-font {
+        color: white;
+        font-size: 20px;
+      }
+      .button1 {
+        height: 50px;
+        width: 100px;
+        background-color: goldenrod;
+        border-radius: 15px;
+        color: white;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+      .content-middle {
+        text-align: center;
+      }
+      .content-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .wtcu1 {
+        background-color: whitesmoke;
+        padding-top: 20px;
+        padding-left: 80px;
+        padding-right: 50px;
+        padding-bottom: 70px;
+      }
+      .wtcu-heading {
+        font-family: "Roboto";
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+      .wtcu-para {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .wtcs-pic1 {
+        height: 50px;
+        width: 100px;
+        margin-bottom: 15px;
+      }
+      .wtcu1-heading {
+        font-size: 30px;
+        font-weight: 100;
+        margin-bottom: 10px;
+      }
+      .wtcu-div {
+        height: 200px;
+        width: 300px;
+        text-align: center;
+        border-style: groove;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 15px;
+        background-color: white;
+      }
+      .wtcu-para {
+        font-size: 15px;
+      }
+      .wtcu-para1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      .offer {
+        font-weight: 600;
+        font-style: italic;
+        font-size: 25px;
+      }
+      .explore-menu {
+        background-color: white;
+        padding-top: 20px;
+        padding-bottom: 25px;
+      }
+      .menu-image {
+        height: 150px;
+        width: 150px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+      }
+      .menu-heading {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .menu-para {
+        font-size: 20px;
+      }
+      .menu-frame {
+        border-style: groove;
+        width: 150px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 15px;
+        background-color: antiquewhite;
+        margin-left: 150px;
+        margin-bottom: 15px;
+      }
+      .menu-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .menu-margin {
+        padding-left: 75px;
+      }
+      .video-bg
+      {
+        background-color:aliceblue;
+        padding-top:50px;
+        padding-left:90px;
+        padding-bottom:60px;
+      }
+      .videofont
+      {
+        font-weight:700;
+        margin-bottom:40px;
+        text-align:center;
+      }
+      .video-style
+      {
+        height:500px;
+        border-radius:15px;
+      }
+      .video
+      {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav1">
+      <div>
+        <img
+          src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706537682/foodmunch_xkhdhj.jpg"
+        />
+      </div>
+      <div class="nav2">
+        <a href="#whychoose" class="font-links font-links1">Why choose Us?</a>
+        <a href="#exploremenu" class="font-links font-links1">Explore Menu</a>
+        <a href="#video" class="font-links font-links1">Making</a>
+        <a href="#delipay" class="font-links font-links1">Delivery & Payment</a>
+        <a href="#follow" class="font-links font-links1">Follow Us</a>
+      </div>
+    </div>
+    <div class="banner content-center">
+      <div class="content-middle">
+        <h1 class="banner-font">Get Delicious Food Anytime</h1>
+        <p class="bannerp-font">Eat Smart & Healty</p>
+        <button class="button1">View Menu</button>
+        <button class="button1">Order Now</button>
+        <p class="bannerpp-font">- BY N . V . V . VARSHITH</p>
+      </div>
+    </div>
+    <div class="wtcu1" id="whychoose">
+      <div>
+        <h1 class="wtcu-heading">Why Choose Us ?</h1>
+        <p class="wtcu-para1">
+          We use both original recipes and classic versions of famous food
+          items.
+        </p>
+      </div>
+      <div class="box">
+        <div class="wtcu-div">
+          <div>
+            <img
+              src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706590455/foodservice_gvl81o.jpg"
+              class="wtcs-pic1"
+            />
+          </div>
+          <div>
+            <h6 class="wtcu1-heading">Food Service</h6>
+            <p class="wtcu-para">
+              Experience fine dining at the comfort of your home. All our orders
+              are carefully packed and arranged to give you the nothing less
+              than perfect.
+            </p>
+          </div>
+        </div>
+        <div class="wtcu-div">
+          <div>
+            <img
+              src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706592555/fresh_til90d.jpg"
+              class="wtcs-pic1"
+            />
+          </div>
+          <div>
+            <h6 class="wtcu1-heading">Fresh Food</h6>
+            <p class="wtcu-para">
+              The Fresh Food group provides fresh-cut fruits and vegetables
+              directly picked from our partner farms and farm houses so that you
+              always get them tree to plate.
+            </p>
+          </div>
+        </div>
+        <div class="wtcu-div">
+          <div>
+            <img
+              src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706592883/price_ir54yt.jpg"
+              class="wtcs-pic1"
+            />
+          </div>
+          <div>
+            <h6 class="wtcu1-heading">Best Offers</h6>
+            <p class="wtcu-para">
+              Food Coupons & Offers upto <span class="offer">50% OFF</span> and
+              Exclusive Promo Codes on All Online Food Orders.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="explore-menu" id="exploremenu">
+      <div class="menu-margin">
+        <h1 class="wtcu1-heading">Explore Menu</h1>
+      </div>
+      <div class="menu-flex">
+        <div class="menu-frame">
+          <div>
+            <img
+              src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706613991/nvdtaeters_trczgq.jpg"
+              class="menu-image"
+            />
+          </div>
+          <div>
+            <h6 class="menu-heading">Non-Veg Starters</h6>
+            <p><a href="#" class="menu-para">View all</a></p>
+          </div>
+        </div>
+        <div class="menu-frame">
+          <div>
+            <img
+              src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706622568/vegstarters_vm4zvn.jpg"
+              class="menu-image"
+            />
+          </div>
+          <div>
+            <h6 class="menu-heading">Veg Starters</h6>
+            <p><a href="#" class="menu-para">View all</a></p>
+          </div>
+        </div>
+        <div class="menu-frame">
+          <div>
+            <img
+              src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706622702/soups_flo8a9.jpg"
+              class="menu-image"
+            />
+          </div>
+          <div>
+            <h6 class="menu-heading">Soups</h6>
+            <p><a href="#" class="menu-para">View all</a></p>
+          </div>
+        </div>
+        <div class="menu-frame">
+          <div>
+            <img
+              src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706622891/fish_segfwb.jpg"
+              class="menu-image"
+            />
+          </div>
+          <div>
+            <h6 class="menu-heading">Fish & Sea food</h6>
+            <p><a href="#" class="menu-para">View all</a></p>
+          </div>
+        </div>
+        <div class="menu-frame">
+          <div>
+            <img
+              src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706623155/maincourse_rkpuwd.jpg"
+              class="menu-image"
+            />
+          </div>
+          <div>
+            <h6 class="menu-heading">Main Course</h6>
+            <p><a href="#" class="menu-para">View all</a></p>
+          </div>
+        </div>
+        <div class="menu-frame">
+          <div>
+            <img
+              src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706623290/Biryani_qhgfk9.jpg"
+              class="menu-image"
+            />
+          </div>
+          <div>
+            <h6 class="menu-heading">Noodles</h6>
+            <p><a href="#" class="menu-para">View all</a></p>
+          </div>
+        </div>
+        <div class="menu-frame">
+          <div>
+            <img
+              src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706623492/salad_ujr9k2.jpg"
+              class="menu-image"
+            />
+          </div>
+          <div>
+            <h6 class="menu-heading">Salads</h6>
+            <p><a href="#" class="menu-para">View all</a></p>
+          </div>
+        </div>
+        <div class="menu-frame">
+          <div>
+            <img
+              src="https://res.cloudinary.com/di9gicvs4/image/upload/v1706624219/dessert_le5zia.jpg"
+              class="menu-image"
+            />
+          </div>
+          <div>
+            <h6 class="menu-heading">Desserts</h6>
+            <p><a href="#" class="menu-para">View all</a></p>
+          </div>
+        </div>
+      </div>
+    </div >
+    <div class="video-bg" id="video">
+      <div><h1 class="videofont">Preparation of Delicious Recipes<h1></div>
+      <div class="video">
+        <div>
+          <embed src="https://www.youtube.com/embed/7-p9k7w3Ih4?si=b6p1gQnP60YxvIWA" class="video-style"/>
+        </div>
+        <div>
+          <embed src="https://www.youtube.com/embed/Q1SRuNcodeU?si=6vKCqk-nFGlR10tG" class="video-style"/>
+        </div>
+        <div>
+          <embed src="https://www.youtube.com/embed/k2xzDrCztO8?si=CaAXrKeWK21qYXBd" class="video-style"/>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
